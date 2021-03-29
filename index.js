@@ -8,7 +8,7 @@ const apiKey = process.env.MESSARI_API_KEY ?? "";
 
 const bot = new Telegraf(token);
 
-const wantedAssets = ["BTC", "ETH", "ADA"];
+const wantedAssets = ["BTC", "ETH", "ADA", "GRT"];
 
 bot.start((context) => {
 	context.reply("Hi there\n\nThis bot will display crypto values");
