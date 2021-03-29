@@ -14,6 +14,6 @@ jobs:
           SOURCE_REPO: "https://github.com/algoram/algorambot.git"
           SOURCE_BRANCH: "main"
           DESTINATION_REPO: ${{ secrets.glitch_git_URL }}
-          DESTINATION_BRANCH: "main"
+          DESTINATION_BRANCH: "master"
         with:
           args: $SOURCE_REPO $SOURCE_BRANCH $DESTINATION_REPO $DESTINATION_BRANCH
